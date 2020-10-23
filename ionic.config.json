@@ -1,0 +1,7 @@
+{
+  "name": "image-gallery",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
