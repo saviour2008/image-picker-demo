@@ -1,0 +1,31 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-button color="dark" (click)="back()">
+                <ion-icon slot="icon-only" name="arrow-back-outline"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+        <ion-title>Invoice Dashboard</ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <img src="assets/banner@3x.png" alt="" />
+    <ion-card>
+        <ion-card-content>
+            <div class="action-header">
+                <h6>我的发票夹</h6>
+                <h6>本月已导入1张</h6>
+            </div>
+            <div class="action-content">
+                <div (click)="presentActionSheet()">
+                    <img src="assets/take_photo@3x.png" alt="" />
+                    <h6>拍纸质发票</h6>
+                </div>
+                <div>
+                    <img src="assets/invoice_import@3x.png" alt="" />
+                    <h6>拍纸质发票</h6>
+                </div>
+            </div>
+        </ion-card-content>
+    </ion-card>
+</ion-content>
